@@ -10,6 +10,7 @@ public class CalculoValor {
 		int codP1, codP2, nP1, nP2;
 		double vlrP1, vlrP2, vlrPgt;
 		
+		
 		codP1 = sc.nextInt();
 		nP1 = sc.nextInt();
 		vlrP1 = sc.nextDouble();
