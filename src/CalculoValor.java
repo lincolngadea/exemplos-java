@@ -7,15 +7,13 @@ public class CalculoValor {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int codP1, codP2, nP1, nP2;
+		int nP1, nP2;
 		double vlrP1, vlrP2, vlrPgt;
 		
 		
-		codP1 = sc.nextInt();
 		nP1 = sc.nextInt();
 		vlrP1 = sc.nextDouble();
 		
-		codP2 = sc.nextInt();
 		nP2 = sc.nextInt();
 		vlrP2 = sc.nextDouble();
 		
