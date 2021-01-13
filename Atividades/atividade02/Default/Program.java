@@ -28,9 +28,6 @@ public class Program {
 		System.out.println("Percentage:");
 		double percentage = sc.nextDouble();
 		
-		String name = worker.toString();
-		double netSalary = worker.netSalary();
-		
 		System.out.println("Worker:"+worker);
 		
 		worker.increaseSalary(percentage);

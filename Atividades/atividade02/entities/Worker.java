@@ -1,7 +1,5 @@
 package entities;
 
-import java.text.Format;
-
 public class Worker {
 	
 	public String name;
