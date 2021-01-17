@@ -49,29 +49,5 @@ public class BankAccount {
 				+ ", Balance: "
 				+ String.format("%.2f",balance);
 	}
-
-	
-	
-	
-	
-	
 	
 }
-
-
-
-//o número da conta nunca pode ser alterado OK
-//o nome do titular pode ser alterado OK
-
-//o saldo da conta não pode ser alterado diretamente, deve depender de uma transação para isso.OK
-//o banco cobra $5,00 por saque OK
-
-//a conta pode ficar com saldo negativo se o saldo não for suficiente.OK
-
-/**
- * O programa terá as seguintes funcionalidades:
- * Cadastrar conta com ou sem o valor do depósito inicial
- * Realizar depósito
- * Realizar Saque
- * Mostrar os dados da conta após cada operação
- */
