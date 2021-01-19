@@ -29,8 +29,8 @@ public class PostProgram {
 				"I am going to visit this wonderfull country!",
 				12);
 		
-		p2.addComment(c1);
-		p2.addComment(c2);
+		p2.addComment(c3);
+		p2.addComment(c4);
 		
 		System.out.println(p1);
 		System.out.println(p2);
