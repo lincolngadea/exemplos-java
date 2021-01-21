@@ -1,13 +1,19 @@
 package entities;
 
+<<<<<<< HEAD
 import java.text.SimpleDateFormat;
+=======
+>>>>>>> a3df37eedc2b7e58a344484808c07ba62ffad3dd
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 public class Post {
+<<<<<<< HEAD
 	
 	private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/YYYY HH:mm:ss");
+=======
+>>>>>>> a3df37eedc2b7e58a344484808c07ba62ffad3dd
 
 	private Date moment;
 	private String title;
@@ -69,6 +75,7 @@ public class Post {
 		comments.remove(comment);
 	}
 	
+<<<<<<< HEAD
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append(title + "\n");
@@ -82,4 +89,6 @@ public class Post {
 		return sb.toString();
 	}
 	
+=======
+>>>>>>> a3df37eedc2b7e58a344484808c07ba62ffad3dd
 }
