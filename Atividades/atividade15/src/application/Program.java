@@ -16,7 +16,11 @@ public class Program {
 
 	public static void main(String[] args) throws ParseException {
 		Locale.setDefault(Locale.US);
+<<<<<<< HEAD
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+=======
+		SimpleDateFormat sdf = new SimpleDateFormat("DD/MM/YYYY");
+>>>>>>> 0cbe0c3ad70e4ecb31580696a8c745ed93e52e7f
 
 		Scanner sc = new Scanner(System.in);
 
@@ -48,10 +52,17 @@ public class Program {
 				System.out.print("Manufacture date (DD/MM/YYYY):");
 				Date date = sdf.parse(sc.next());
 				list.add(new UsedProduct(name, price, date));
+<<<<<<< HEAD
 			}
 
 		}
 
+=======
+			}	
+
+		}
+		
+>>>>>>> 0cbe0c3ad70e4ecb31580696a8c745ed93e52e7f
 		System.out.println();
 		System.out.println("PRICE TAGS:");
 		for (Product prod : list) {
