@@ -48,10 +48,10 @@ public class Program {
 				System.out.print("Manufacture date (DD/MM/YYYY):");
 				Date date = sdf.parse(sc.next());
 				list.add(new UsedProduct(name, price, date));
-			}	
+			}
 
 		}
-		
+
 		System.out.println();
 		System.out.println("PRICE TAGS:");
 		for (Product prod : list) {
